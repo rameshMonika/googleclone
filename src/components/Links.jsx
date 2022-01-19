@@ -12,14 +12,14 @@ const links =[
 export const Links = () =>{
     return(
         <div className="flex sm:justify-around justify-between items-center mt-4">
-            {/* {links.map(({url,text},index)=>(
+            {links.map(({url,text},index)=>(
                 <NavLink key={index}to={url} >
 
                     {text}
 
 
                 </NavLink>
-            ))} */}
+            ))}
          
 
         </div>
